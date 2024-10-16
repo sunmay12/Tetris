@@ -72,8 +72,8 @@ public class GamePanel extends JPanel {
     // 떨어지는 블록 초기화 메소드
     public void makeBlock() {
         row = 0;
-        // col = (int) (Math.random() * 11);
-        col = 5; // 초기 떨어지는 블록의 열 설정
+        col = (int) (Math.random() * 11);
+        //col = 5; // 초기 떨어지는 블록의 열 설정
         currentColor = getColor();
     }
 
